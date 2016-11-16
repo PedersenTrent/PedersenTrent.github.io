@@ -1,0 +1,19 @@
+#custom-css-css{
+	p{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:16px}
+	li{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:16px}
+	h1{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+	h2{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+	h3{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+	h4{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+	h5{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+	h6{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+	div .posts-page-description{display:none}
+} 
+}
+
+#header{
+	background-color: #c11f32;
+
+	color: white;
+
+}
