@@ -3,6 +3,7 @@ body, html {
 	height: 100%;
 	min-height: 100%;
 	background-color: #000000;
+	width: 100%;
 }
 .no-js {
 	padding-top: 106px;
@@ -65,7 +66,7 @@ main {
 /* Slide 1 */
 #slide-1 .bcg {
 	background-image:url('../img/bcg_slide-1.jpg');
-	opacity: 0.7;
+	
 
 }
 #slide-1 .slideContent {
@@ -102,7 +103,7 @@ main {
 /*Slide 3 */
 #slide-3 .bcg {
 	background-image:url('../img/bcg_slide-2.jpg');
-	opacity:0.7;
+
 }
 
 #slide-3 .slideContent {
