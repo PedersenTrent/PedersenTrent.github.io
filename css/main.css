@@ -65,8 +65,9 @@ main {
 
 /* Slide 1 */
 #slide-1 .bcg {
+	position: absolute;
 	background-image:url('../img/bcg_slide-1.jpg');
-	
+	opacity: 0.7;
 
 }
 #slide-1 .slideContent {
@@ -102,8 +103,9 @@ main {
 
 /*Slide 3 */
 #slide-3 .bcg {
+	position:absolute;
 	background-image:url('../img/bcg_slide-2.jpg');
-
+	opacity:0.7;
 }
 
 #slide-3 .slideContent {
