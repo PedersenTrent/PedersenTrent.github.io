@@ -3,7 +3,6 @@ body, html {
 	height: 100%;
 	min-height: 100%;
 	background-color: #000000;
-	width: 100%;
 }
 .no-js {
 	padding-top: 106px;
@@ -65,7 +64,7 @@ main {
 
 /* Slide 1 */
 #slide-1 .bcg {
-	position: absolute;
+	position:absolute;
 	background-image:url('../img/bcg_slide-1.jpg');
 	opacity: 0.7;
 
@@ -86,7 +85,7 @@ main {
 	background-color: #1f2226;
 }
 #slide-2 .slideContent {
-	max-width: 1000px;
+	max-width: 1100px;
 	left: 10%;
     top: 12%;
 }
@@ -105,30 +104,77 @@ main {
 #slide-3 .bcg {
 	position:absolute;
 	background-image:url('../img/bcg_slide-2.jpg');
-	opacity:0.7;
+	opacity:0.5;
 }
 
 #slide-3 .slideContent {
 	max-width: 1000px;
-	left: 28.5%;
-    top: 50%;
+	left: 26%;
+    top: 45%;
 }
 
-/*link in slide 3*/
-a.projectlink:link, a.projectlink:visited{
-	background-color: #1f2226;
-    color: white;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-    font-size: 45px;
-}
-
-a.projectlink:hover{
-	background-color: #1f2226;
-	color:#4B9AC9;
+#slide-3 h2{
+	font-size: 30px;
+	color: white;
+	text-align: center;
 	text-decoration: none;
+	padding: 14px 25px;
+}
+
+/* Slide 4 */
+#slide-4 .bcg {
+	background-image: url('../img/bcg_slide-3.jpg');
+}
+#slide-4 .hsContent {
+    margin-left: -450px;
+    position: fixed;
+    top: 250px;
+}
+
+#slide-4 h2 {
+	font-size: 30px;
+    color: white;
+}
+
+footer {
+	color: white;
+    background-color: #1f2226;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-body{
+	padding: 0px;
+    text-align: center;
+	} 
+.footer-body p{
+	font-size: 45px;
+	max-width: 1000px;
+	overflow:auto;
+}
+
+.float{
+	display:inline-block;
+    height: auto;
+    margin: 5px 7px 0 3px;
+    width: auto;
+  	vertical-align: text-bottom;
+}
+
+#phone{
+	height: 50px;
+	width: 50px;
+	float:left;
+	margin: 0px 10px;
+}
+
+#mail{
+	height:40px;
+	width: 80px;
+	float:left;
+	margin: 0px 10px;
+	
+
 }
 
 }
