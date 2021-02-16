@@ -67,6 +67,8 @@ main {
 	position:absolute;
 	background-image:url('../img/bcg_slide-1.jpg');
 	opacity: 0.7;
+	
+	
 
 }
 #slide-1 .slideContent {
@@ -76,7 +78,7 @@ main {
 }
 
 #slide-1 h2{
-	font-size:120px;
+	font-size:150px;
 	color: white;
 }
 
@@ -114,9 +116,10 @@ main {
 }
 
 #slide-3 h2{
-	font-size: 30px;
+	font-size: 50px;
 	color: white;
 	text-align: center;
+	vertical-align: middle;
 	text-decoration: none;
 	padding: 14px 25px;
 }
@@ -132,7 +135,7 @@ main {
 }
 
 #slide-4 h2 {
-	font-size: 30px;
+	font-size: 60px;
     color: white;
 }
 
